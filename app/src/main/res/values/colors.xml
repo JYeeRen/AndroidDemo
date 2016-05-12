@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18161B</color>
+    <!-- 顶部状态栏颜色 -->
+    <color name="colorPrimaryDark">#18161B</color>
+    <!-- 顶部状态栏颜色 -->
+    <color name="colorAccent">#00AC09</color>
+    <!-- 选中项颜色 -->
+    <color name="BACKGROUND_COLOR">#f2f2f2</color>
+    <color name="TEXT_COLOR_1">#06140b</color>
+    <color name="TEXT_COLOR_2">#0a2112</color>
+    <color name="TEXT_COLOR_3">#215435</color>
+    <color name="LINE_COLOR_1">#61cadf</color>
+    <color name="LINE_COLOR_2">#3cb2ca</color>
+    <color name="LINE_COLOR_3">#2d8da1</color>
+    <color name="LINE_COLOR_4">#226e7e</color>
+</resources>

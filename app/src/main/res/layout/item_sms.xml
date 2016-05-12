@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--短信内容元素-->
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="13700000721"
+        android:textColor="@color/TEXT_COLOR_2"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/ITEM_PADDING"
+        android:text="2016-05-05"
+        android:textColor="@color/TEXT_COLOR_2"
+        android:textSize="@dimen/TEXT_SIZE_MIN" />
+
+    <TextView
+        android:id="@+id/tv_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_address"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="短信内容"
+        android:textColor="@color/TEXT_COLOR_3"
+        android:textSize="@dimen/TEXT_SIZE_MIN" />
+
+
+</RelativeLayout>

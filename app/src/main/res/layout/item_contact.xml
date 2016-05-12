@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--联系人界面-->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="联系人"
+        android:textColor="@color/TEXT_COLOR_1"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingBottom="@dimen/ITEM_PADDING"
+        android:paddingRight="@dimen/ITEM_PADDING"
+        android:text="电话号码"
+        android:textColor="@color/TEXT_COLOR_3"
+        android:textSize="@dimen/TEXT_SIZE" />
+</LinearLayout>

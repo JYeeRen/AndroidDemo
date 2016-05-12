@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/ITEM_PADDING">
+    <!--发送短信元素-->
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/MARGIN"
+        android:layout_toLeftOf="@+id/img_head"
+        android:text="发送的短信"
+        android:textColor="@color/TEXT_COLOR_3"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_body"
+        android:layout_below="@+id/tv_body"
+        android:layout_marginTop="@dimen/MARGIN"
+        android:text="2016-05-06"
+        android:textColor="@color/TEXT_COLOR_1"
+        android:textSize="@dimen/TEXT_SIZE_MIN" />
+
+</RelativeLayout>

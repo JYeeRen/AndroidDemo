@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BACKGROUND_COLOR">
+    <!--通话记录元素-->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/MARGIN"
+        android:layout_marginTop="@dimen/MARGIN"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="姓名"
+        android:textColor="@color/TEXT_COLOR_1"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/MARGIN"
+        android:layout_marginTop="@dimen/MARGIN"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="m.d h:m:m"
+        android:textColor="@color/TEXT_COLOR_2"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/MARGIN"
+            android:layout_weight="1"
+            android:padding="@dimen/ITEM_PADDING"
+            android:text="类型"
+            android:textColor="@color/TEXT_COLOR_3"
+            android:textSize="@dimen/TEXT_SIZE" />
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" -->
+        <!--android:src="@drawable/"/>-->
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/MARGIN"
+            android:layout_weight="4"
+            android:gravity="right"
+            android:paddingRight="@dimen/MARGIN"
+            android:text="1 300-300-3000"
+            android:textColor="@color/TEXT_COLOR_3"
+            android:textSize="@dimen/TEXT_SIZE" />
+
+    </LinearLayout>
+
+</RelativeLayout>

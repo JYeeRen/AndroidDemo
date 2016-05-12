@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BACKGROUND_COLOR">
+    <!--联系人详情界面-->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ITEM_PADDING"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="联系人"
+        android:textColor="@color/TEXT_COLOR_1"
+        android:textSize="@dimen/TEXT_SIZE" />
+
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/ITEM_PADDING"
+        android:gravity="right"
+        android:padding="@dimen/ITEM_PADDING"
+        android:text="电话号码"
+        android:textColor="@color/TEXT_COLOR_2"
+        android:textSize="@dimen/TEXT_SIZE_MIN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20sp">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/VIEW_PADDING"
+            android:background="@drawable/shape_button"
+            android:text="call"
+            android:textColor="@color/LINE_COLOR_1"
+            android:textSize="@dimen/TEXT_SIZE_MIN" />
+
+        <Button
+            android:id="@+id/btn_sms"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/VIEW_PADDING"
+            android:background="@drawable/shape_button"
+            android:text="sms"
+            android:textColor="@color/TEXT_COLOR_3"
+            android:textSize="@dimen/TEXT_SIZE_MIN" />
+    </LinearLayout>
+
+
+</RelativeLayout>

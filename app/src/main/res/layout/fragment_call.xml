@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BACKGROUND_COLOR"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:textColor="#BABABA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_call_one"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_1"
+                android:text="1"
+                android:textColor="@color/TEXT_COLOR_1"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_two"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_1"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_three"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_1"
+                android:text="3"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_call_four"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_2"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_five"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_2"
+                android:text="5"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_six"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_2"
+                android:text="6"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_call_seven"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_3"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_eight"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_3"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_nine"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_3"
+                android:text="9"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_call_phone"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/green"
+                android:padding="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/call"
+                android:text="CALL"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_call_zero"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_4"
+                android:text="0"
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/btn_call_delete"
+                android:layout_width="@dimen/btn_radious"
+                android:layout_height="@dimen/btn_radious"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cancel"
+                android:padding="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/delete"
+                android:text="DEL"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

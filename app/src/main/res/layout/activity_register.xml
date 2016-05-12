@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--注册界面-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BACKGROUND_COLOR"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/TVSU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Enter your Information"
+        android:textSize="@dimen/TEXT_SIZE_MAX"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="18dp"
+        />
+
+    <EditText
+        android:id="@+id/et_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVSU"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="input userName"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="@dimen/ITEM_PADDING"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_account"
+        android:gravity="center"
+        android:hint="input passWord"
+        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="@dimen/ITEM_PADDING"/>
+
+    <EditText
+        android:id="@+id/et_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="input again passWord"
+        android:padding="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="@dimen/ITEM_PADDING"/>
+
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/et_repeat"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_login"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/TEXT_COLOR_3"
+        android:textSize="@dimen/TEXT_SIZE"
+        android:layout_margin="@dimen/VIEW_PADDING"/>
+
+
+</RelativeLayout>
